@@ -16,7 +16,7 @@ using UnityEngine;
  * To disable this, comment out the unwanted RequireComponent statement holding specified type of component.
 */
 [RequireComponent(typeof(CharacterController))] 
-public class K_PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     [Tooltip("Constant Float Value. Distance between lanes, used to shift between them.")]
     private const float LANE_DISTANCE = 8.0f;
